@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2814EBA01E6BB2EB00203947 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2814EB9F1E6BB2EB00203947 /* main.m */; };
+		2814EBA31E6BB2EB00203947 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2814EBA21E6BB2EB00203947 /* AppDelegate.m */; };
+		2814EBA61E6BB2EB00203947 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2814EBA51E6BB2EB00203947 /* ViewController.m */; };
+		2814EBA91E6BB2EB00203947 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2814EBA71E6BB2EB00203947 /* Main.storyboard */; };
+		2814EBAB1E6BB2EB00203947 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2814EBAA1E6BB2EB00203947 /* Assets.xcassets */; };
+		2814EBAE1E6BB2EB00203947 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2814EBAC1E6BB2EB00203947 /* LaunchScreen.storyboard */; };
+		2814EBB91E6BB2EB00203947 /* Quadcopter_ControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2814EBB81E6BB2EB00203947 /* Quadcopter_ControllerTests.m */; };
+		2814EBC41E6BB2EB00203947 /* Quadcopter_ControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2814EBC31E6BB2EB00203947 /* Quadcopter_ControllerUITests.m */; };
+		283F455E1E6C79230025B81D /* Back_000000_100.png in Resources */ = {isa = PBXBuildFile; fileRef = 283F455A1E6C79230025B81D /* Back_000000_100.png */; };
+		283F455F1E6C79230025B81D /* Expand Arrow_000000_100 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 283F455B1E6C79230025B81D /* Expand Arrow_000000_100 2.png */; };
+		283F45601E6C79230025B81D /* Expand Arrow_000000_100.png in Resources */ = {isa = PBXBuildFile; fileRef = 283F455C1E6C79230025B81D /* Expand Arrow_000000_100.png */; };
+		283F45611E6C79230025B81D /* Forward_000000_100.png in Resources */ = {isa = PBXBuildFile; fileRef = 283F455D1E6C79230025B81D /* Forward_000000_100.png */; };
+		283F45641E6C79290025B81D /* ruler-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 283F45621E6C79290025B81D /* ruler-1.png */; };
+		283F45651E6C79290025B81D /* ruler-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 283F45631E6C79290025B81D /* ruler-2.png */; };
+		283F45671E6C7A1D0025B81D /* ruler-1 copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 283F45661E6C7A1C0025B81D /* ruler-1 copy.png */; };
+		283F45691E6C7AC00025B81D /* circle.png in Resources */ = {isa = PBXBuildFile; fileRef = 283F45681E6C7AC00025B81D /* circle.png */; };
+		283F456B1E6C7EEE0025B81D /* Brake Warning_000000_100.png in Resources */ = {isa = PBXBuildFile; fileRef = 283F456A1E6C7EEE0025B81D /* Brake Warning_000000_100.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2814EBB51E6BB2EB00203947 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2814EB931E6BB2EB00203947 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2814EB9A1E6BB2EB00203947;
+			remoteInfo = "Quadcopter Controller";
+		};
+		2814EBC01E6BB2EB00203947 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2814EB931E6BB2EB00203947 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2814EB9A1E6BB2EB00203947;
+			remoteInfo = "Quadcopter Controller";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2814EB9B1E6BB2EB00203947 /* Quadcopter Controller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Quadcopter Controller.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2814EB9F1E6BB2EB00203947 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2814EBA11E6BB2EB00203947 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2814EBA21E6BB2EB00203947 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2814EBA41E6BB2EB00203947 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2814EBA51E6BB2EB00203947 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2814EBA81E6BB2EB00203947 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2814EBAA1E6BB2EB00203947 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2814EBAD1E6BB2EB00203947 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2814EBAF1E6BB2EB00203947 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2814EBB41E6BB2EB00203947 /* Quadcopter ControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Quadcopter ControllerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2814EBB81E6BB2EB00203947 /* Quadcopter_ControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Quadcopter_ControllerTests.m; sourceTree = "<group>"; };
+		2814EBBA1E6BB2EB00203947 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2814EBBF1E6BB2EB00203947 /* Quadcopter ControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Quadcopter ControllerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2814EBC31E6BB2EB00203947 /* Quadcopter_ControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Quadcopter_ControllerUITests.m; sourceTree = "<group>"; };
+		2814EBC51E6BB2EB00203947 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		283F455A1E6C79230025B81D /* Back_000000_100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Back_000000_100.png; sourceTree = "<group>"; };
+		283F455B1E6C79230025B81D /* Expand Arrow_000000_100 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Expand Arrow_000000_100 2.png"; sourceTree = "<group>"; };
+		283F455C1E6C79230025B81D /* Expand Arrow_000000_100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Expand Arrow_000000_100.png"; sourceTree = "<group>"; };
+		283F455D1E6C79230025B81D /* Forward_000000_100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Forward_000000_100.png; sourceTree = "<group>"; };
+		283F45621E6C79290025B81D /* ruler-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ruler-1.png"; sourceTree = "<group>"; };
+		283F45631E6C79290025B81D /* ruler-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ruler-2.png"; sourceTree = "<group>"; };
+		283F45661E6C7A1C0025B81D /* ruler-1 copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ruler-1 copy.png"; sourceTree = "<group>"; };
+		283F45681E6C7AC00025B81D /* circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = circle.png; sourceTree = "<group>"; };
+		283F456A1E6C7EEE0025B81D /* Brake Warning_000000_100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Brake Warning_000000_100.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2814EB981E6BB2EB00203947 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2814EBB11E6BB2EB00203947 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2814EBBC1E6BB2EB00203947 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2814EB921E6BB2EB00203947 = {
+			isa = PBXGroup;
+			children = (
+				2814EB9D1E6BB2EB00203947 /* Quadcopter Controller */,
+				2814EBB71E6BB2EB00203947 /* Quadcopter ControllerTests */,
+				2814EBC21E6BB2EB00203947 /* Quadcopter ControllerUITests */,
+				2814EB9C1E6BB2EB00203947 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2814EB9C1E6BB2EB00203947 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2814EB9B1E6BB2EB00203947 /* Quadcopter Controller.app */,
+				2814EBB41E6BB2EB00203947 /* Quadcopter ControllerTests.xctest */,
+				2814EBBF1E6BB2EB00203947 /* Quadcopter ControllerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2814EB9D1E6BB2EB00203947 /* Quadcopter Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2814EBA11E6BB2EB00203947 /* AppDelegate.h */,
+				2814EBA21E6BB2EB00203947 /* AppDelegate.m */,
+				2814EBA41E6BB2EB00203947 /* ViewController.h */,
+				2814EBA51E6BB2EB00203947 /* ViewController.m */,
+				2814EBA71E6BB2EB00203947 /* Main.storyboard */,
+				2814EBAA1E6BB2EB00203947 /* Assets.xcassets */,
+				283F456C1E6C80E30025B81D /* Media */,
+				2814EBAC1E6BB2EB00203947 /* LaunchScreen.storyboard */,
+				2814EBAF1E6BB2EB00203947 /* Info.plist */,
+				2814EB9E1E6BB2EB00203947 /* Supporting Files */,
+			);
+			path = "Quadcopter Controller";
+			sourceTree = "<group>";
+		};
+		2814EB9E1E6BB2EB00203947 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2814EB9F1E6BB2EB00203947 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2814EBB71E6BB2EB00203947 /* Quadcopter ControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				2814EBB81E6BB2EB00203947 /* Quadcopter_ControllerTests.m */,
+				2814EBBA1E6BB2EB00203947 /* Info.plist */,
+			);
+			path = "Quadcopter ControllerTests";
+			sourceTree = "<group>";
+		};
+		2814EBC21E6BB2EB00203947 /* Quadcopter ControllerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2814EBC31E6BB2EB00203947 /* Quadcopter_ControllerUITests.m */,
+				2814EBC51E6BB2EB00203947 /* Info.plist */,
+			);
+			path = "Quadcopter ControllerUITests";
+			sourceTree = "<group>";
+		};
+		283F456C1E6C80E30025B81D /* Media */ = {
+			isa = PBXGroup;
+			children = (
+				283F456A1E6C7EEE0025B81D /* Brake Warning_000000_100.png */,
+				283F45681E6C7AC00025B81D /* circle.png */,
+				283F45661E6C7A1C0025B81D /* ruler-1 copy.png */,
+				283F45621E6C79290025B81D /* ruler-1.png */,
+				283F45631E6C79290025B81D /* ruler-2.png */,
+				283F455A1E6C79230025B81D /* Back_000000_100.png */,
+				283F455B1E6C79230025B81D /* Expand Arrow_000000_100 2.png */,
+				283F455C1E6C79230025B81D /* Expand Arrow_000000_100.png */,
+				283F455D1E6C79230025B81D /* Forward_000000_100.png */,
+			);
+			name = Media;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2814EB9A1E6BB2EB00203947 /* Quadcopter Controller */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2814EBC81E6BB2EB00203947 /* Build configuration list for PBXNativeTarget "Quadcopter Controller" */;
+			buildPhases = (
+				2814EB971E6BB2EB00203947 /* Sources */,
+				2814EB981E6BB2EB00203947 /* Frameworks */,
+				2814EB991E6BB2EB00203947 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Quadcopter Controller";
+			productName = "Quadcopter Controller";
+			productReference = 2814EB9B1E6BB2EB00203947 /* Quadcopter Controller.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2814EBB31E6BB2EB00203947 /* Quadcopter ControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2814EBCB1E6BB2EB00203947 /* Build configuration list for PBXNativeTarget "Quadcopter ControllerTests" */;
+			buildPhases = (
+				2814EBB01E6BB2EB00203947 /* Sources */,
+				2814EBB11E6BB2EB00203947 /* Frameworks */,
+				2814EBB21E6BB2EB00203947 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2814EBB61E6BB2EB00203947 /* PBXTargetDependency */,
+			);
+			name = "Quadcopter ControllerTests";
+			productName = "Quadcopter ControllerTests";
+			productReference = 2814EBB41E6BB2EB00203947 /* Quadcopter ControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2814EBBE1E6BB2EB00203947 /* Quadcopter ControllerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2814EBCE1E6BB2EB00203947 /* Build configuration list for PBXNativeTarget "Quadcopter ControllerUITests" */;
+			buildPhases = (
+				2814EBBB1E6BB2EB00203947 /* Sources */,
+				2814EBBC1E6BB2EB00203947 /* Frameworks */,
+				2814EBBD1E6BB2EB00203947 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2814EBC11E6BB2EB00203947 /* PBXTargetDependency */,
+			);
+			name = "Quadcopter ControllerUITests";
+			productName = "Quadcopter ControllerUITests";
+			productReference = 2814EBBF1E6BB2EB00203947 /* Quadcopter ControllerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2814EB931E6BB2EB00203947 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Yongyang Nie";
+				TargetAttributes = {
+					2814EB9A1E6BB2EB00203947 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 8NZ8K5GNH8;
+						ProvisioningStyle = Automatic;
+					};
+					2814EBB31E6BB2EB00203947 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 8NZ8K5GNH8;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2814EB9A1E6BB2EB00203947;
+					};
+					2814EBBE1E6BB2EB00203947 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 8NZ8K5GNH8;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2814EB9A1E6BB2EB00203947;
+					};
+				};
+			};
+			buildConfigurationList = 2814EB961E6BB2EB00203947 /* Build configuration list for PBXProject "Quadcopter Controller" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2814EB921E6BB2EB00203947;
+			productRefGroup = 2814EB9C1E6BB2EB00203947 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2814EB9A1E6BB2EB00203947 /* Quadcopter Controller */,
+				2814EBB31E6BB2EB00203947 /* Quadcopter ControllerTests */,
+				2814EBBE1E6BB2EB00203947 /* Quadcopter ControllerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2814EB991E6BB2EB00203947 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				283F45671E6C7A1D0025B81D /* ruler-1 copy.png in Resources */,
+				2814EBAE1E6BB2EB00203947 /* LaunchScreen.storyboard in Resources */,
+				283F455E1E6C79230025B81D /* Back_000000_100.png in Resources */,
+				283F456B1E6C7EEE0025B81D /* Brake Warning_000000_100.png in Resources */,
+				283F45691E6C7AC00025B81D /* circle.png in Resources */,
+				283F45651E6C79290025B81D /* ruler-2.png in Resources */,
+				283F45641E6C79290025B81D /* ruler-1.png in Resources */,
+				2814EBAB1E6BB2EB00203947 /* Assets.xcassets in Resources */,
+				283F45601E6C79230025B81D /* Expand Arrow_000000_100.png in Resources */,
+				283F45611E6C79230025B81D /* Forward_000000_100.png in Resources */,
+				283F455F1E6C79230025B81D /* Expand Arrow_000000_100 2.png in Resources */,
+				2814EBA91E6BB2EB00203947 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2814EBB21E6BB2EB00203947 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2814EBBD1E6BB2EB00203947 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2814EB971E6BB2EB00203947 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2814EBA61E6BB2EB00203947 /* ViewController.m in Sources */,
+				2814EBA31E6BB2EB00203947 /* AppDelegate.m in Sources */,
+				2814EBA01E6BB2EB00203947 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2814EBB01E6BB2EB00203947 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2814EBB91E6BB2EB00203947 /* Quadcopter_ControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2814EBBB1E6BB2EB00203947 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2814EBC41E6BB2EB00203947 /* Quadcopter_ControllerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2814EBB61E6BB2EB00203947 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2814EB9A1E6BB2EB00203947 /* Quadcopter Controller */;
+			targetProxy = 2814EBB51E6BB2EB00203947 /* PBXContainerItemProxy */;
+		};
+		2814EBC11E6BB2EB00203947 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2814EB9A1E6BB2EB00203947 /* Quadcopter Controller */;
+			targetProxy = 2814EBC01E6BB2EB00203947 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2814EBA71E6BB2EB00203947 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2814EBA81E6BB2EB00203947 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2814EBAC1E6BB2EB00203947 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2814EBAD1E6BB2EB00203947 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2814EBC61E6BB2EB00203947 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2814EBC71E6BB2EB00203947 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2814EBC91E6BB2EB00203947 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8NZ8K5GNH8;
+				INFOPLIST_FILE = "Quadcopter Controller/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yongyang.Quadcopter-Controller";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2814EBCA1E6BB2EB00203947 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8NZ8K5GNH8;
+				INFOPLIST_FILE = "Quadcopter Controller/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yongyang.Quadcopter-Controller";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2814EBCC1E6BB2EB00203947 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 8NZ8K5GNH8;
+				INFOPLIST_FILE = "Quadcopter ControllerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yongyang.Quadcopter-ControllerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Quadcopter Controller.app/Quadcopter Controller";
+			};
+			name = Debug;
+		};
+		2814EBCD1E6BB2EB00203947 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 8NZ8K5GNH8;
+				INFOPLIST_FILE = "Quadcopter ControllerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yongyang.Quadcopter-ControllerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Quadcopter Controller.app/Quadcopter Controller";
+			};
+			name = Release;
+		};
+		2814EBCF1E6BB2EB00203947 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 8NZ8K5GNH8;
+				INFOPLIST_FILE = "Quadcopter ControllerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yongyang.Quadcopter-ControllerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Quadcopter Controller";
+			};
+			name = Debug;
+		};
+		2814EBD01E6BB2EB00203947 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 8NZ8K5GNH8;
+				INFOPLIST_FILE = "Quadcopter ControllerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yongyang.Quadcopter-ControllerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Quadcopter Controller";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2814EB961E6BB2EB00203947 /* Build configuration list for PBXProject "Quadcopter Controller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2814EBC61E6BB2EB00203947 /* Debug */,
+				2814EBC71E6BB2EB00203947 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2814EBC81E6BB2EB00203947 /* Build configuration list for PBXNativeTarget "Quadcopter Controller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2814EBC91E6BB2EB00203947 /* Debug */,
+				2814EBCA1E6BB2EB00203947 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2814EBCB1E6BB2EB00203947 /* Build configuration list for PBXNativeTarget "Quadcopter ControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2814EBCC1E6BB2EB00203947 /* Debug */,
+				2814EBCD1E6BB2EB00203947 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2814EBCE1E6BB2EB00203947 /* Build configuration list for PBXNativeTarget "Quadcopter ControllerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2814EBCF1E6BB2EB00203947 /* Debug */,
+				2814EBD01E6BB2EB00203947 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2814EB931E6BB2EB00203947 /* Project object */;
+}
